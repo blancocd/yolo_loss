@@ -1,0 +1,662 @@
+Load pre-trained model
+Initializing dataset
+Loaded 5011 train images
+Initializing dataset
+Loaded 4950 test images
+
+
+Starting epoch 1 / 50
+Learning Rate for this epoch: 0.001
+Epoch [1/50], Iter [50/209], Loss: total=18.058, reg=3.694, containing_obj=0.660, no_obj=6.646, cls=7.058
+Epoch [1/50], Iter [100/209], Loss: total=13.651, reg=3.200, containing_obj=0.893, no_obj=4.165, cls=5.393
+Epoch [1/50], Iter [150/209], Loss: total=11.426, reg=2.860, containing_obj=1.016, no_obj=3.062, cls=4.488
+Epoch [1/50], Iter [200/209], Loss: total=10.205, reg=2.691, containing_obj=1.096, no_obj=2.464, cls=3.954
+Updating best test loss: 6.19689
+
+
+Starting epoch 2 / 50
+Learning Rate for this epoch: 0.001
+Epoch [2/50], Iter [50/209], Loss: total=6.254, reg=2.108, containing_obj=1.327, no_obj=0.605, cls=2.214
+Epoch [2/50], Iter [100/209], Loss: total=5.963, reg=2.028, containing_obj=1.250, no_obj=0.597, cls=2.087
+Epoch [2/50], Iter [150/209], Loss: total=5.773, reg=1.986, containing_obj=1.220, no_obj=0.583, cls=1.984
+Epoch [2/50], Iter [200/209], Loss: total=5.667, reg=1.973, containing_obj=1.197, no_obj=0.574, cls=1.923
+Updating best test loss: 5.24229
+
+
+Starting epoch 3 / 50
+Learning Rate for this epoch: 0.001
+Epoch [3/50], Iter [50/209], Loss: total=5.032, reg=1.857, containing_obj=1.070, no_obj=0.529, cls=1.575
+Epoch [3/50], Iter [100/209], Loss: total=4.945, reg=1.839, containing_obj=1.055, no_obj=0.523, cls=1.528
+Epoch [3/50], Iter [150/209], Loss: total=4.907, reg=1.846, containing_obj=1.041, no_obj=0.523, cls=1.497
+Epoch [3/50], Iter [200/209], Loss: total=4.830, reg=1.821, containing_obj=1.021, no_obj=0.520, cls=1.468
+Updating best test loss: 4.69299
+
+
+Starting epoch 4 / 50
+Learning Rate for this epoch: 0.001
+Epoch [4/50], Iter [50/209], Loss: total=4.442, reg=1.698, containing_obj=0.964, no_obj=0.496, cls=1.283
+Epoch [4/50], Iter [100/209], Loss: total=4.478, reg=1.734, containing_obj=0.966, no_obj=0.492, cls=1.287
+Epoch [4/50], Iter [150/209], Loss: total=4.425, reg=1.728, containing_obj=0.954, no_obj=0.488, cls=1.255
+Epoch [4/50], Iter [200/209], Loss: total=4.427, reg=1.744, containing_obj=0.956, no_obj=0.486, cls=1.241
+Updating best test loss: 4.34235
+
+
+Starting epoch 5 / 50
+Learning Rate for this epoch: 0.001
+Epoch [5/50], Iter [50/209], Loss: total=4.001, reg=1.633, containing_obj=0.860, no_obj=0.481, cls=1.027
+Epoch [5/50], Iter [100/209], Loss: total=4.073, reg=1.654, containing_obj=0.878, no_obj=0.476, cls=1.064
+Epoch [5/50], Iter [150/209], Loss: total=4.052, reg=1.646, containing_obj=0.871, no_obj=0.475, cls=1.060
+Epoch [5/50], Iter [200/209], Loss: total=4.009, reg=1.632, containing_obj=0.870, no_obj=0.472, cls=1.035
+---Evaluate model on test samples---
+---class aeroplane ap 0.1845956105142901---
+---class bicycle ap 0.21109907448784884---
+---class bird ap 0.22260345112028923---
+---class boat ap 0.06114519915464561---
+---class bottle ap 0.04774764084923283---
+---class bus ap 0.1419414039950162---
+---class car ap 0.32590802708685584---
+---class cat ap 0.3910758504238362---
+---class chair ap 0.14506664303543235---
+---class cow ap 0.035386360132018554---
+---class diningtable ap 0.025080906148867314---
+---class dog ap 0.34873382473570813---
+---class horse ap 0.4118031290751621---
+---class motorbike ap 0.2498066495271341---
+---class person ap 0.3202546366217299---
+---class pottedplant ap 0.0551371524311845---
+---class sheep ap 0.08076075477231066---
+---class sofa ap 0.04402612081515221---
+---class train ap 0.3941033849507325---
+---class tvmonitor ap 0.18688397264860213---
+---map 0.19415798962630246---
+4 [0.1845956105142901, 0.21109907448784884, 0.22260345112028923, 0.06114519915464561, 0.04774764084923283, 0.1419414039950162, 0.32590802708685584, 0.3910758504238362, 0.14506664303543235, 0.035386360132018554, 0.025080906148867314, 0.34873382473570813, 0.4118031290751621, 0.2498066495271341, 0.3202546366217299, 0.0551371524311845, 0.08076075477231066, 0.04402612081515221, 0.3941033849507325, 0.18688397264860213]
+Updating best test loss: 4.10990
+
+
+Starting epoch 6 / 50
+Learning Rate for this epoch: 0.001
+Epoch [6/50], Iter [50/209], Loss: total=3.848, reg=1.613, containing_obj=0.832, no_obj=0.462, cls=0.943
+Epoch [6/50], Iter [100/209], Loss: total=3.739, reg=1.570, containing_obj=0.797, no_obj=0.464, cls=0.908
+Epoch [6/50], Iter [150/209], Loss: total=3.712, reg=1.563, containing_obj=0.801, no_obj=0.462, cls=0.885
+Epoch [6/50], Iter [200/209], Loss: total=3.744, reg=1.583, containing_obj=0.814, no_obj=0.459, cls=0.888
+Updating best test loss: 3.91462
+
+
+Starting epoch 7 / 50
+Learning Rate for this epoch: 0.001
+Epoch [7/50], Iter [50/209], Loss: total=3.594, reg=1.575, containing_obj=0.779, no_obj=0.459, cls=0.780
+Epoch [7/50], Iter [100/209], Loss: total=3.580, reg=1.571, containing_obj=0.767, no_obj=0.455, cls=0.787
+Epoch [7/50], Iter [150/209], Loss: total=3.557, reg=1.546, containing_obj=0.768, no_obj=0.452, cls=0.791
+Epoch [7/50], Iter [200/209], Loss: total=3.542, reg=1.543, containing_obj=0.770, no_obj=0.448, cls=0.781
+Updating best test loss: 3.77091
+
+
+Starting epoch 8 / 50
+Learning Rate for this epoch: 0.001
+Epoch [8/50], Iter [50/209], Loss: total=3.346, reg=1.447, containing_obj=0.746, no_obj=0.435, cls=0.717
+Epoch [8/50], Iter [100/209], Loss: total=3.386, reg=1.479, containing_obj=0.754, no_obj=0.431, cls=0.722
+Epoch [8/50], Iter [150/209], Loss: total=3.387, reg=1.497, containing_obj=0.748, no_obj=0.435, cls=0.707
+Epoch [8/50], Iter [200/209], Loss: total=3.374, reg=1.491, containing_obj=0.748, no_obj=0.434, cls=0.701
+Updating best test loss: 3.61702
+
+
+Starting epoch 9 / 50
+Learning Rate for this epoch: 0.001
+Epoch [9/50], Iter [50/209], Loss: total=3.171, reg=1.422, containing_obj=0.706, no_obj=0.426, cls=0.617
+Epoch [9/50], Iter [100/209], Loss: total=3.295, reg=1.474, containing_obj=0.736, no_obj=0.428, cls=0.657
+Epoch [9/50], Iter [150/209], Loss: total=3.253, reg=1.455, containing_obj=0.721, no_obj=0.432, cls=0.645
+Epoch [9/50], Iter [200/209], Loss: total=3.231, reg=1.441, containing_obj=0.711, no_obj=0.432, cls=0.647
+Updating best test loss: 3.55008
+
+
+Starting epoch 10 / 50
+Learning Rate for this epoch: 0.001
+Epoch [10/50], Iter [50/209], Loss: total=3.029, reg=1.352, containing_obj=0.682, no_obj=0.413, cls=0.582
+Epoch [10/50], Iter [100/209], Loss: total=3.077, reg=1.371, containing_obj=0.696, no_obj=0.411, cls=0.599
+Epoch [10/50], Iter [150/209], Loss: total=3.058, reg=1.368, containing_obj=0.687, no_obj=0.418, cls=0.585
+Epoch [10/50], Iter [200/209], Loss: total=3.060, reg=1.375, containing_obj=0.685, no_obj=0.420, cls=0.581
+---Evaluate model on test samples---
+---class aeroplane ap 0.32206381301207365---
+---class bicycle ap 0.3690735954055955---
+---class bird ap 0.2451534687149564---
+---class boat ap 0.14068024792946884---
+---class bottle ap 0.13153500895960601---
+---class bus ap 0.4464019324360161---
+---class car ap 0.4428729823610338---
+---class cat ap 0.5462525026856886---
+---class chair ap 0.2412060173132434---
+---class cow ap 0.20126159889763262---
+---class diningtable ap 0.2106612030774058---
+---class dog ap 0.5098644244509236---
+---class horse ap 0.5019422734343173---
+---class motorbike ap 0.4054240991223995---
+---class person ap 0.3309048671427575---
+---class pottedplant ap 0.10065264763892637---
+---class sheep ap 0.09810823209594097---
+---class sofa ap 0.35872412751441973---
+---class train ap 0.6160124187600435---
+---class tvmonitor ap 0.40811853457406555---
+---map 0.3313456997763258---
+9 [0.32206381301207365, 0.3690735954055955, 0.2451534687149564, 0.14068024792946884, 0.13153500895960601, 0.4464019324360161, 0.4428729823610338, 0.5462525026856886, 0.2412060173132434, 0.20126159889763262, 0.2106612030774058, 0.5098644244509236, 0.5019422734343173, 0.4054240991223995, 0.3309048671427575, 0.10065264763892637, 0.09810823209594097, 0.35872412751441973, 0.6160124187600435, 0.40811853457406555]
+Updating best test loss: 3.42231
+
+
+Starting epoch 11 / 50
+Learning Rate for this epoch: 0.001
+Epoch [11/50], Iter [50/209], Loss: total=2.891, reg=1.302, containing_obj=0.629, no_obj=0.418, cls=0.543
+Epoch [11/50], Iter [100/209], Loss: total=2.869, reg=1.304, containing_obj=0.643, no_obj=0.411, cls=0.511
+Epoch [11/50], Iter [150/209], Loss: total=2.933, reg=1.341, containing_obj=0.660, no_obj=0.409, cls=0.522
+Epoch [11/50], Iter [200/209], Loss: total=2.948, reg=1.350, containing_obj=0.661, no_obj=0.413, cls=0.525
+Updating best test loss: 3.39825
+
+
+Starting epoch 12 / 50
+Learning Rate for this epoch: 0.001
+Epoch [12/50], Iter [50/209], Loss: total=2.710, reg=1.236, containing_obj=0.594, no_obj=0.410, cls=0.470
+Epoch [12/50], Iter [100/209], Loss: total=2.806, reg=1.292, containing_obj=0.608, no_obj=0.412, cls=0.494
+Epoch [12/50], Iter [150/209], Loss: total=2.844, reg=1.304, containing_obj=0.623, no_obj=0.411, cls=0.506
+Epoch [12/50], Iter [200/209], Loss: total=2.864, reg=1.313, containing_obj=0.631, no_obj=0.411, cls=0.509
+Updating best test loss: 3.34797
+
+
+Starting epoch 13 / 50
+Learning Rate for this epoch: 0.001
+Epoch [13/50], Iter [50/209], Loss: total=2.708, reg=1.231, containing_obj=0.607, no_obj=0.403, cls=0.466
+Epoch [13/50], Iter [100/209], Loss: total=2.680, reg=1.225, containing_obj=0.600, no_obj=0.396, cls=0.460
+Epoch [13/50], Iter [150/209], Loss: total=2.715, reg=1.246, containing_obj=0.613, no_obj=0.398, cls=0.459
+Epoch [13/50], Iter [200/209], Loss: total=2.735, reg=1.263, containing_obj=0.612, no_obj=0.400, cls=0.461
+Updating best test loss: 3.29893
+
+
+Starting epoch 14 / 50
+Learning Rate for this epoch: 0.001
+Epoch [14/50], Iter [50/209], Loss: total=2.680, reg=1.269, containing_obj=0.592, no_obj=0.403, cls=0.416
+Epoch [14/50], Iter [100/209], Loss: total=2.708, reg=1.285, containing_obj=0.592, no_obj=0.400, cls=0.430
+Epoch [14/50], Iter [150/209], Loss: total=2.729, reg=1.285, containing_obj=0.600, no_obj=0.404, cls=0.439
+Epoch [14/50], Iter [200/209], Loss: total=2.689, reg=1.262, containing_obj=0.593, no_obj=0.402, cls=0.432
+Updating best test loss: 3.27211
+
+
+Starting epoch 15 / 50
+Learning Rate for this epoch: 0.001
+Epoch [15/50], Iter [50/209], Loss: total=2.403, reg=1.109, containing_obj=0.536, no_obj=0.385, cls=0.373
+Epoch [15/50], Iter [100/209], Loss: total=2.495, reg=1.160, containing_obj=0.565, no_obj=0.381, cls=0.389
+Epoch [15/50], Iter [150/209], Loss: total=2.576, reg=1.200, containing_obj=0.585, no_obj=0.383, cls=0.408
+Epoch [15/50], Iter [200/209], Loss: total=2.576, reg=1.201, containing_obj=0.578, no_obj=0.386, cls=0.411
+---Evaluate model on test samples---
+---class aeroplane ap 0.40336485872840244---
+---class bicycle ap 0.4549106313344422---
+---class bird ap 0.3775647732100129---
+---class boat ap 0.20221043426691218---
+---class bottle ap 0.12930413479724912---
+---class bus ap 0.5371507815951528---
+---class car ap 0.5441648076991976---
+---class cat ap 0.6918022978323062---
+---class chair ap 0.277107926910689---
+---class cow ap 0.3395652719824007---
+---class diningtable ap 0.34663732321181157---
+---class dog ap 0.640543052035957---
+---class horse ap 0.5994845329914825---
+---class motorbike ap 0.5046257665275025---
+---class person ap 0.37348072477982563---
+---class pottedplant ap 0.15736501044857484---
+---class sheep ap 0.2152036981952703---
+---class sofa ap 0.4390914176054421---
+---class train ap 0.5873706882681003---
+---class tvmonitor ap 0.4659878517182289---
+---map 0.414346799206948---
+14 [0.40336485872840244, 0.4549106313344422, 0.3775647732100129, 0.20221043426691218, 0.12930413479724912, 0.5371507815951528, 0.5441648076991976, 0.6918022978323062, 0.277107926910689, 0.3395652719824007, 0.34663732321181157, 0.640543052035957, 0.5994845329914825, 0.5046257665275025, 0.37348072477982563, 0.15736501044857484, 0.2152036981952703, 0.4390914176054421, 0.5873706882681003, 0.4659878517182289]
+Updating best test loss: 3.25061
+
+
+Starting epoch 16 / 50
+Learning Rate for this epoch: 0.001
+Epoch [16/50], Iter [50/209], Loss: total=2.447, reg=1.170, containing_obj=0.528, no_obj=0.386, cls=0.364
+Epoch [16/50], Iter [100/209], Loss: total=2.497, reg=1.170, containing_obj=0.555, no_obj=0.389, cls=0.382
+Epoch [16/50], Iter [150/209], Loss: total=2.505, reg=1.181, containing_obj=0.556, no_obj=0.386, cls=0.381
+Epoch [16/50], Iter [200/209], Loss: total=2.515, reg=1.184, containing_obj=0.558, no_obj=0.386, cls=0.386
+Updating best test loss: 3.21946
+
+
+Starting epoch 17 / 50
+Learning Rate for this epoch: 0.001
+Epoch [17/50], Iter [50/209], Loss: total=2.399, reg=1.145, containing_obj=0.533, no_obj=0.378, cls=0.343
+Epoch [17/50], Iter [100/209], Loss: total=2.500, reg=1.187, containing_obj=0.557, no_obj=0.387, cls=0.370
+Epoch [17/50], Iter [150/209], Loss: total=2.454, reg=1.164, containing_obj=0.539, no_obj=0.389, cls=0.362
+Epoch [17/50], Iter [200/209], Loss: total=2.437, reg=1.155, containing_obj=0.538, no_obj=0.386, cls=0.359
+Updating best test loss: 3.21185
+
+
+Starting epoch 18 / 50
+Learning Rate for this epoch: 0.001
+Epoch [18/50], Iter [50/209], Loss: total=2.441, reg=1.158, containing_obj=0.562, no_obj=0.367, cls=0.354
+Epoch [18/50], Iter [100/209], Loss: total=2.400, reg=1.143, containing_obj=0.539, no_obj=0.370, cls=0.347
+Epoch [18/50], Iter [150/209], Loss: total=2.387, reg=1.139, containing_obj=0.532, no_obj=0.370, cls=0.346
+Epoch [18/50], Iter [200/209], Loss: total=2.412, reg=1.146, containing_obj=0.547, no_obj=0.371, cls=0.348
+Updating best test loss: 3.15576
+
+
+Starting epoch 19 / 50
+Learning Rate for this epoch: 0.001
+Epoch [19/50], Iter [50/209], Loss: total=2.264, reg=1.074, containing_obj=0.470, no_obj=0.385, cls=0.336
+Epoch [19/50], Iter [100/209], Loss: total=2.300, reg=1.096, containing_obj=0.498, no_obj=0.375, cls=0.331
+Epoch [19/50], Iter [150/209], Loss: total=2.326, reg=1.106, containing_obj=0.512, no_obj=0.372, cls=0.336
+Epoch [19/50], Iter [200/209], Loss: total=2.331, reg=1.103, containing_obj=0.520, no_obj=0.371, cls=0.337
+
+
+Starting epoch 20 / 50
+Learning Rate for this epoch: 0.001
+Epoch [20/50], Iter [50/209], Loss: total=2.188, reg=1.049, containing_obj=0.485, no_obj=0.371, cls=0.283
+Epoch [20/50], Iter [100/209], Loss: total=2.280, reg=1.101, containing_obj=0.507, no_obj=0.367, cls=0.306
+Epoch [20/50], Iter [150/209], Loss: total=2.267, reg=1.088, containing_obj=0.502, no_obj=0.367, cls=0.311
+Epoch [20/50], Iter [200/209], Loss: total=2.293, reg=1.100, containing_obj=0.510, no_obj=0.367, cls=0.316
+---Evaluate model on test samples---
+---class aeroplane ap 0.33219322534193685---
+---class bicycle ap 0.6224845122848158---
+---class bird ap 0.3989163160973425---
+---class boat ap 0.2061759593523566---
+---class bottle ap 0.14184243254217027---
+---class bus ap 0.5643688221507561---
+---class car ap 0.557253996759671---
+---class cat ap 0.6701381529091001---
+---class chair ap 0.29564410486017384---
+---class cow ap 0.4128005055353706---
+---class diningtable ap 0.42790640602321683---
+---class dog ap 0.6218191487509388---
+---class horse ap 0.6208709043619597---
+---class motorbike ap 0.5023088337104891---
+---class person ap 0.4837030787119718---
+---class pottedplant ap 0.18008823014357103---
+---class sheep ap 0.3164422566683257---
+---class sofa ap 0.4757956534552131---
+---class train ap 0.5826842227876183---
+---class tvmonitor ap 0.4685031375159983---
+---map 0.44409699499814986---
+19 [0.33219322534193685, 0.6224845122848158, 0.3989163160973425, 0.2061759593523566, 0.14184243254217027, 0.5643688221507561, 0.557253996759671, 0.6701381529091001, 0.29564410486017384, 0.4128005055353706, 0.42790640602321683, 0.6218191487509388, 0.6208709043619597, 0.5023088337104891, 0.4837030787119718, 0.18008823014357103, 0.3164422566683257, 0.4757956534552131, 0.5826842227876183, 0.4685031375159983]
+Updating best test loss: 3.11435
+
+
+Starting epoch 21 / 50
+Learning Rate for this epoch: 0.001
+Epoch [21/50], Iter [50/209], Loss: total=2.276, reg=1.076, containing_obj=0.512, no_obj=0.381, cls=0.307
+Epoch [21/50], Iter [100/209], Loss: total=2.268, reg=1.075, containing_obj=0.512, no_obj=0.376, cls=0.306
+Epoch [21/50], Iter [150/209], Loss: total=2.214, reg=1.058, containing_obj=0.488, no_obj=0.371, cls=0.297
+Epoch [21/50], Iter [200/209], Loss: total=2.224, reg=1.067, containing_obj=0.494, no_obj=0.367, cls=0.296
+Updating best test loss: 3.11012
+
+
+Starting epoch 22 / 50
+Learning Rate for this epoch: 0.001
+Epoch [22/50], Iter [50/209], Loss: total=2.248, reg=1.104, containing_obj=0.499, no_obj=0.353, cls=0.292
+Epoch [22/50], Iter [100/209], Loss: total=2.183, reg=1.053, containing_obj=0.479, no_obj=0.358, cls=0.293
+Epoch [22/50], Iter [150/209], Loss: total=2.222, reg=1.074, containing_obj=0.494, no_obj=0.354, cls=0.299
+Epoch [22/50], Iter [200/209], Loss: total=2.225, reg=1.066, containing_obj=0.498, no_obj=0.358, cls=0.303
+
+
+Starting epoch 23 / 50
+Learning Rate for this epoch: 0.001
+Epoch [23/50], Iter [50/209], Loss: total=2.031, reg=0.963, containing_obj=0.444, no_obj=0.357, cls=0.266
+Epoch [23/50], Iter [100/209], Loss: total=2.095, reg=0.998, containing_obj=0.471, no_obj=0.356, cls=0.269
+Epoch [23/50], Iter [150/209], Loss: total=2.118, reg=1.005, containing_obj=0.482, no_obj=0.357, cls=0.274
+Epoch [23/50], Iter [200/209], Loss: total=2.129, reg=1.013, containing_obj=0.483, no_obj=0.354, cls=0.278
+Updating best test loss: 3.09466
+
+
+Starting epoch 24 / 50
+Learning Rate for this epoch: 0.001
+Epoch [24/50], Iter [50/209], Loss: total=2.092, reg=1.005, containing_obj=0.474, no_obj=0.356, cls=0.256
+Epoch [24/50], Iter [100/209], Loss: total=2.073, reg=0.999, containing_obj=0.463, no_obj=0.358, cls=0.253
+Epoch [24/50], Iter [150/209], Loss: total=2.130, reg=1.025, containing_obj=0.478, no_obj=0.357, cls=0.271
+Epoch [24/50], Iter [200/209], Loss: total=2.128, reg=1.021, containing_obj=0.473, no_obj=0.358, cls=0.276
+Updating best test loss: 3.08747
+
+
+Starting epoch 25 / 50
+Learning Rate for this epoch: 0.001
+Epoch [25/50], Iter [50/209], Loss: total=2.047, reg=1.003, containing_obj=0.453, no_obj=0.346, cls=0.245
+Epoch [25/50], Iter [100/209], Loss: total=2.050, reg=1.001, containing_obj=0.453, no_obj=0.347, cls=0.249
+Epoch [25/50], Iter [150/209], Loss: total=2.088, reg=1.012, containing_obj=0.465, no_obj=0.352, cls=0.259
+Epoch [25/50], Iter [200/209], Loss: total=2.066, reg=1.003, containing_obj=0.457, no_obj=0.352, cls=0.255
+---Evaluate model on test samples---
+---class aeroplane ap 0.375042504595881---
+---class bicycle ap 0.582544558668185---
+---class bird ap 0.4251713616390369---
+---class boat ap 0.22564598840464808---
+---class bottle ap 0.20439996339697722---
+---class bus ap 0.5695925235468899---
+---class car ap 0.4972564247070297---
+---class cat ap 0.7027957154619007---
+---class chair ap 0.2981464788915892---
+---class cow ap 0.4409440428108945---
+---class diningtable ap 0.4068941465181971---
+---class dog ap 0.6393784421364346---
+---class horse ap 0.6577030197963747---
+---class motorbike ap 0.5626562658044587---
+---class person ap 0.4417949232880445---
+---class pottedplant ap 0.14828011602101632---
+---class sheep ap 0.3656420793755331---
+---class sofa ap 0.433082394615103---
+---class train ap 0.6234203387880521---
+---class tvmonitor ap 0.48821145841386504---
+---map 0.45443013734400556---
+24 [0.375042504595881, 0.582544558668185, 0.4251713616390369, 0.22564598840464808, 0.20439996339697722, 0.5695925235468899, 0.4972564247070297, 0.7027957154619007, 0.2981464788915892, 0.4409440428108945, 0.4068941465181971, 0.6393784421364346, 0.6577030197963747, 0.5626562658044587, 0.4417949232880445, 0.14828011602101632, 0.3656420793755331, 0.433082394615103, 0.6234203387880521, 0.48821145841386504]
+Updating best test loss: 3.07207
+
+
+Starting epoch 26 / 50
+Learning Rate for this epoch: 0.001
+Epoch [26/50], Iter [50/209], Loss: total=1.872, reg=0.908, containing_obj=0.408, no_obj=0.334, cls=0.222
+Epoch [26/50], Iter [100/209], Loss: total=1.977, reg=0.964, containing_obj=0.436, no_obj=0.340, cls=0.237
+Epoch [26/50], Iter [150/209], Loss: total=2.027, reg=0.991, containing_obj=0.450, no_obj=0.343, cls=0.243
+Epoch [26/50], Iter [200/209], Loss: total=2.034, reg=0.988, containing_obj=0.455, no_obj=0.345, cls=0.246
+
+
+Starting epoch 27 / 50
+Learning Rate for this epoch: 0.001
+Epoch [27/50], Iter [50/209], Loss: total=2.002, reg=0.979, containing_obj=0.446, no_obj=0.345, cls=0.232
+Epoch [27/50], Iter [100/209], Loss: total=1.971, reg=0.949, containing_obj=0.441, no_obj=0.345, cls=0.237
+Epoch [27/50], Iter [150/209], Loss: total=1.971, reg=0.956, containing_obj=0.440, no_obj=0.340, cls=0.235
+Epoch [27/50], Iter [200/209], Loss: total=1.985, reg=0.962, containing_obj=0.444, no_obj=0.342, cls=0.237
+
+
+Starting epoch 28 / 50
+Learning Rate for this epoch: 0.001
+Epoch [28/50], Iter [50/209], Loss: total=1.918, reg=0.935, containing_obj=0.414, no_obj=0.340, cls=0.229
+Epoch [28/50], Iter [100/209], Loss: total=1.918, reg=0.925, containing_obj=0.422, no_obj=0.334, cls=0.236
+Epoch [28/50], Iter [150/209], Loss: total=1.975, reg=0.955, containing_obj=0.443, no_obj=0.338, cls=0.241
+Epoch [28/50], Iter [200/209], Loss: total=1.966, reg=0.949, containing_obj=0.442, no_obj=0.340, cls=0.235
+
+
+Starting epoch 29 / 50
+Learning Rate for this epoch: 0.001
+Epoch [29/50], Iter [50/209], Loss: total=1.898, reg=0.929, containing_obj=0.428, no_obj=0.328, cls=0.214
+Epoch [29/50], Iter [100/209], Loss: total=1.904, reg=0.929, containing_obj=0.420, no_obj=0.334, cls=0.220
+Epoch [29/50], Iter [150/209], Loss: total=1.905, reg=0.929, containing_obj=0.424, no_obj=0.331, cls=0.220
+Epoch [29/50], Iter [200/209], Loss: total=1.922, reg=0.941, containing_obj=0.427, no_obj=0.333, cls=0.220
+
+
+Starting epoch 30 / 50
+Learning Rate for this epoch: 0.001
+Epoch [30/50], Iter [50/209], Loss: total=1.831, reg=0.892, containing_obj=0.401, no_obj=0.328, cls=0.210
+Epoch [30/50], Iter [100/209], Loss: total=1.821, reg=0.884, containing_obj=0.403, no_obj=0.324, cls=0.210
+Epoch [30/50], Iter [150/209], Loss: total=1.858, reg=0.903, containing_obj=0.412, no_obj=0.324, cls=0.219
+Epoch [30/50], Iter [200/209], Loss: total=1.903, reg=0.928, containing_obj=0.426, no_obj=0.326, cls=0.223
+---Evaluate model on test samples---
+---class aeroplane ap 0.33803357282330704---
+---class bicycle ap 0.6568523172309862---
+---class bird ap 0.41898660802850846---
+---class boat ap 0.2124471879492807---
+---class bottle ap 0.17361030305913627---
+---class bus ap 0.6061383440211344---
+---class car ap 0.4544557992864863---
+---class cat ap 0.7499375290652687---
+---class chair ap 0.2868445863253119---
+---class cow ap 0.4690748838674711---
+---class diningtable ap 0.4551804667034632---
+---class dog ap 0.6178462555532899---
+---class horse ap 0.675247629927862---
+---class motorbike ap 0.5257624299809783---
+---class person ap 0.3820517525214798---
+---class pottedplant ap 0.14756567376101998---
+---class sheep ap 0.369352881853528---
+---class sofa ap 0.5233694522746233---
+---class train ap 0.6265487204170265---
+---class tvmonitor ap 0.45641976617473323---
+---map 0.4572863080412448---
+29 [0.33803357282330704, 0.6568523172309862, 0.41898660802850846, 0.2124471879492807, 0.17361030305913627, 0.6061383440211344, 0.4544557992864863, 0.7499375290652687, 0.2868445863253119, 0.4690748838674711, 0.4551804667034632, 0.6178462555532899, 0.675247629927862, 0.5257624299809783, 0.3820517525214798, 0.14756567376101998, 0.369352881853528, 0.5233694522746233, 0.6265487204170265, 0.45641976617473323]
+
+
+Starting epoch 31 / 50
+Learning Rate for this epoch: 0.0001
+Epoch [31/50], Iter [50/209], Loss: total=1.805, reg=0.882, containing_obj=0.393, no_obj=0.331, cls=0.199
+Epoch [31/50], Iter [100/209], Loss: total=1.763, reg=0.864, containing_obj=0.385, no_obj=0.327, cls=0.188
+Epoch [31/50], Iter [150/209], Loss: total=1.768, reg=0.867, containing_obj=0.381, no_obj=0.328, cls=0.192
+Epoch [31/50], Iter [200/209], Loss: total=1.773, reg=0.872, containing_obj=0.380, no_obj=0.325, cls=0.195
+Updating best test loss: 2.96243
+
+
+Starting epoch 32 / 50
+Learning Rate for this epoch: 0.0001
+Epoch [32/50], Iter [50/209], Loss: total=1.773, reg=0.891, containing_obj=0.392, no_obj=0.321, cls=0.170
+Epoch [32/50], Iter [100/209], Loss: total=1.721, reg=0.851, containing_obj=0.375, no_obj=0.320, cls=0.175
+Epoch [32/50], Iter [150/209], Loss: total=1.734, reg=0.855, containing_obj=0.381, no_obj=0.322, cls=0.177
+Epoch [32/50], Iter [200/209], Loss: total=1.726, reg=0.853, containing_obj=0.376, no_obj=0.322, cls=0.175
+Updating best test loss: 2.92239
+
+
+Starting epoch 33 / 50
+Learning Rate for this epoch: 0.0001
+Epoch [33/50], Iter [50/209], Loss: total=1.646, reg=0.789, containing_obj=0.355, no_obj=0.316, cls=0.186
+Epoch [33/50], Iter [100/209], Loss: total=1.641, reg=0.796, containing_obj=0.361, no_obj=0.314, cls=0.171
+Epoch [33/50], Iter [150/209], Loss: total=1.665, reg=0.812, containing_obj=0.365, no_obj=0.313, cls=0.174
+Epoch [33/50], Iter [200/209], Loss: total=1.678, reg=0.821, containing_obj=0.367, no_obj=0.314, cls=0.176
+
+
+Starting epoch 34 / 50
+Learning Rate for this epoch: 0.0001
+Epoch [34/50], Iter [50/209], Loss: total=1.616, reg=0.789, containing_obj=0.347, no_obj=0.314, cls=0.167
+Epoch [34/50], Iter [100/209], Loss: total=1.664, reg=0.815, containing_obj=0.365, no_obj=0.313, cls=0.171
+Epoch [34/50], Iter [150/209], Loss: total=1.635, reg=0.795, containing_obj=0.360, no_obj=0.313, cls=0.167
+Epoch [34/50], Iter [200/209], Loss: total=1.668, reg=0.818, containing_obj=0.368, no_obj=0.313, cls=0.168
+
+
+Starting epoch 35 / 50
+Learning Rate for this epoch: 0.0001
+Epoch [35/50], Iter [50/209], Loss: total=1.620, reg=0.792, containing_obj=0.356, no_obj=0.310, cls=0.161
+Epoch [35/50], Iter [100/209], Loss: total=1.644, reg=0.793, containing_obj=0.361, no_obj=0.310, cls=0.180
+Epoch [35/50], Iter [150/209], Loss: total=1.659, reg=0.806, containing_obj=0.370, no_obj=0.311, cls=0.171
+Epoch [35/50], Iter [200/209], Loss: total=1.657, reg=0.809, containing_obj=0.367, no_obj=0.312, cls=0.169
+---Evaluate model on test samples---
+---class aeroplane ap 0.43307351609218997---
+---class bicycle ap 0.6669647999184618---
+---class bird ap 0.48774458772260926---
+---class boat ap 0.29182149618484143---
+---class bottle ap 0.19256082473345354---
+---class bus ap 0.6334826858246914---
+---class car ap 0.5991378211450142---
+---class cat ap 0.7731102731819461---
+---class chair ap 0.35758889071350675---
+---class cow ap 0.50522653272663---
+---class diningtable ap 0.4796528154804891---
+---class dog ap 0.7174525243654639---
+---class horse ap 0.6810137234097454---
+---class motorbike ap 0.5962309855544093---
+---class person ap 0.47002822876810685---
+---class pottedplant ap 0.2104877954753747---
+---class sheep ap 0.4094031557090837---
+---class sofa ap 0.5469848261106229---
+---class train ap 0.6888802401809133---
+---class tvmonitor ap 0.49596941420113483---
+---map 0.5118407568749344---
+34 [0.43307351609218997, 0.6669647999184618, 0.48774458772260926, 0.29182149618484143, 0.19256082473345354, 0.6334826858246914, 0.5991378211450142, 0.7731102731819461, 0.35758889071350675, 0.50522653272663, 0.4796528154804891, 0.7174525243654639, 0.6810137234097454, 0.5962309855544093, 0.47002822876810685, 0.2104877954753747, 0.4094031557090837, 0.5469848261106229, 0.6888802401809133, 0.49596941420113483]
+
+
+Starting epoch 36 / 50
+Learning Rate for this epoch: 0.0001
+Epoch [36/50], Iter [50/209], Loss: total=1.756, reg=0.860, containing_obj=0.402, no_obj=0.313, cls=0.181
+Epoch [36/50], Iter [100/209], Loss: total=1.748, reg=0.869, containing_obj=0.394, no_obj=0.313, cls=0.172
+Epoch [36/50], Iter [150/209], Loss: total=1.712, reg=0.848, containing_obj=0.382, no_obj=0.312, cls=0.170
+Epoch [36/50], Iter [200/209], Loss: total=1.692, reg=0.836, containing_obj=0.372, no_obj=0.314, cls=0.170
+Updating best test loss: 2.91916
+
+
+Starting epoch 37 / 50
+Learning Rate for this epoch: 0.0001
+Epoch [37/50], Iter [50/209], Loss: total=1.661, reg=0.815, containing_obj=0.367, no_obj=0.313, cls=0.166
+Epoch [37/50], Iter [100/209], Loss: total=1.685, reg=0.819, containing_obj=0.385, no_obj=0.313, cls=0.169
+Epoch [37/50], Iter [150/209], Loss: total=1.665, reg=0.812, containing_obj=0.368, no_obj=0.312, cls=0.174
+Epoch [37/50], Iter [200/209], Loss: total=1.642, reg=0.803, containing_obj=0.362, no_obj=0.311, cls=0.165
+
+
+Starting epoch 38 / 50
+Learning Rate for this epoch: 0.0001
+Epoch [38/50], Iter [50/209], Loss: total=1.617, reg=0.801, containing_obj=0.351, no_obj=0.302, cls=0.164
+Epoch [38/50], Iter [100/209], Loss: total=1.650, reg=0.806, containing_obj=0.373, no_obj=0.302, cls=0.169
+Epoch [38/50], Iter [150/209], Loss: total=1.635, reg=0.798, containing_obj=0.367, no_obj=0.305, cls=0.165
+Epoch [38/50], Iter [200/209], Loss: total=1.624, reg=0.795, containing_obj=0.361, no_obj=0.307, cls=0.161
+
+
+Starting epoch 39 / 50
+Learning Rate for this epoch: 0.0001
+Epoch [39/50], Iter [50/209], Loss: total=1.625, reg=0.777, containing_obj=0.382, no_obj=0.302, cls=0.163
+Epoch [39/50], Iter [100/209], Loss: total=1.653, reg=0.806, containing_obj=0.378, no_obj=0.303, cls=0.167
+Epoch [39/50], Iter [150/209], Loss: total=1.612, reg=0.789, containing_obj=0.360, no_obj=0.304, cls=0.159
+Epoch [39/50], Iter [200/209], Loss: total=1.615, reg=0.792, containing_obj=0.358, no_obj=0.305, cls=0.160
+
+
+Starting epoch 40 / 50
+Learning Rate for this epoch: 0.0001
+Epoch [40/50], Iter [50/209], Loss: total=1.631, reg=0.781, containing_obj=0.382, no_obj=0.303, cls=0.164
+Epoch [40/50], Iter [100/209], Loss: total=1.601, reg=0.770, containing_obj=0.366, no_obj=0.306, cls=0.158
+Epoch [40/50], Iter [150/209], Loss: total=1.597, reg=0.783, containing_obj=0.357, no_obj=0.303, cls=0.154
+Epoch [40/50], Iter [200/209], Loss: total=1.604, reg=0.789, containing_obj=0.356, no_obj=0.303, cls=0.156
+---Evaluate model on test samples---
+---class aeroplane ap 0.44450808452241375---
+---class bicycle ap 0.6452207389228611---
+---class bird ap 0.4888716860993546---
+---class boat ap 0.30652997484883104---
+---class bottle ap 0.22285001243634614---
+---class bus ap 0.6243743221810745---
+---class car ap 0.6360356217564387---
+---class cat ap 0.7876990494729404---
+---class chair ap 0.35033013933019824---
+---class cow ap 0.5658021434228486---
+---class diningtable ap 0.4738971598772557---
+---class dog ap 0.7190167011558934---
+---class horse ap 0.6951044460029613---
+---class motorbike ap 0.5616486541682302---
+---class person ap 0.4792906687989002---
+---class pottedplant ap 0.2116699443053279---
+---class sheep ap 0.44044119275787286---
+---class sofa ap 0.5314512720594179---
+---class train ap 0.6958811127025369---
+---class tvmonitor ap 0.5276472767109815---
+---map 0.5204135100766343---
+39 [0.44450808452241375, 0.6452207389228611, 0.4888716860993546, 0.30652997484883104, 0.22285001243634614, 0.6243743221810745, 0.6360356217564387, 0.7876990494729404, 0.35033013933019824, 0.5658021434228486, 0.4738971598772557, 0.7190167011558934, 0.6951044460029613, 0.5616486541682302, 0.4792906687989002, 0.2116699443053279, 0.44044119275787286, 0.5314512720594179, 0.6958811127025369, 0.5276472767109815]
+
+
+Starting epoch 41 / 50
+Learning Rate for this epoch: 1e-05
+Epoch [41/50], Iter [50/209], Loss: total=1.666, reg=0.801, containing_obj=0.379, no_obj=0.307, cls=0.179
+Epoch [41/50], Iter [100/209], Loss: total=1.599, reg=0.775, containing_obj=0.362, no_obj=0.304, cls=0.158
+Epoch [41/50], Iter [150/209], Loss: total=1.577, reg=0.764, containing_obj=0.358, no_obj=0.303, cls=0.150
+Epoch [41/50], Iter [200/209], Loss: total=1.558, reg=0.758, containing_obj=0.349, no_obj=0.303, cls=0.148
+
+
+Starting epoch 42 / 50
+Learning Rate for this epoch: 1e-05
+Epoch [42/50], Iter [50/209], Loss: total=1.606, reg=0.790, containing_obj=0.346, no_obj=0.301, cls=0.170
+Epoch [42/50], Iter [100/209], Loss: total=1.600, reg=0.786, containing_obj=0.355, no_obj=0.301, cls=0.157
+Epoch [42/50], Iter [150/209], Loss: total=1.599, reg=0.784, containing_obj=0.355, no_obj=0.304, cls=0.156
+Epoch [42/50], Iter [200/209], Loss: total=1.578, reg=0.775, containing_obj=0.346, no_obj=0.305, cls=0.152
+
+
+Starting epoch 43 / 50
+Learning Rate for this epoch: 1e-05
+Epoch [43/50], Iter [50/209], Loss: total=1.602, reg=0.801, containing_obj=0.351, no_obj=0.301, cls=0.149
+Epoch [43/50], Iter [100/209], Loss: total=1.566, reg=0.767, containing_obj=0.343, no_obj=0.304, cls=0.152
+Epoch [43/50], Iter [150/209], Loss: total=1.565, reg=0.768, containing_obj=0.347, no_obj=0.304, cls=0.147
+Epoch [43/50], Iter [200/209], Loss: total=1.568, reg=0.772, containing_obj=0.345, no_obj=0.303, cls=0.148
+
+
+Starting epoch 44 / 50
+Learning Rate for this epoch: 1e-05
+Epoch [44/50], Iter [50/209], Loss: total=1.532, reg=0.728, containing_obj=0.348, no_obj=0.309, cls=0.147
+Epoch [44/50], Iter [100/209], Loss: total=1.575, reg=0.757, containing_obj=0.356, no_obj=0.304, cls=0.158
+Epoch [44/50], Iter [150/209], Loss: total=1.578, reg=0.768, containing_obj=0.354, no_obj=0.301, cls=0.155
+Epoch [44/50], Iter [200/209], Loss: total=1.576, reg=0.770, containing_obj=0.351, no_obj=0.302, cls=0.154
+
+
+Starting epoch 45 / 50
+Learning Rate for this epoch: 1e-05
+Epoch [45/50], Iter [50/209], Loss: total=1.624, reg=0.809, containing_obj=0.354, no_obj=0.304, cls=0.157
+Epoch [45/50], Iter [100/209], Loss: total=1.569, reg=0.767, containing_obj=0.344, no_obj=0.304, cls=0.153
+Epoch [45/50], Iter [150/209], Loss: total=1.570, reg=0.769, containing_obj=0.346, no_obj=0.304, cls=0.151
+Epoch [45/50], Iter [200/209], Loss: total=1.559, reg=0.765, containing_obj=0.341, no_obj=0.305, cls=0.149
+---Evaluate model on test samples---
+---class aeroplane ap 0.45796521178152605---
+---class bicycle ap 0.667119986371324---
+---class bird ap 0.514540577261319---
+---class boat ap 0.3187453816947888---
+---class bottle ap 0.23061833798837986---
+---class bus ap 0.6268030495742394---
+---class car ap 0.6461527048846506---
+---class cat ap 0.7842925482945557---
+---class chair ap 0.3546354013693168---
+---class cow ap 0.5652749466944011---
+---class diningtable ap 0.46260822730966034---
+---class dog ap 0.7194513194403058---
+---class horse ap 0.7004957416233873---
+---class motorbike ap 0.5852432579140574---
+---class person ap 0.502105780717383---
+---class pottedplant ap 0.216407502866369---
+---class sheep ap 0.47929880412962794---
+---class sofa ap 0.5495538713258409---
+---class train ap 0.6885698187250322---
+---class tvmonitor ap 0.5127943624655351---
+---map 0.5291338416215849---
+44 [0.45796521178152605, 0.667119986371324, 0.514540577261319, 0.3187453816947888, 0.23061833798837986, 0.6268030495742394, 0.6461527048846506, 0.7842925482945557, 0.3546354013693168, 0.5652749466944011, 0.46260822730966034, 0.7194513194403058, 0.7004957416233873, 0.5852432579140574, 0.502105780717383, 0.216407502866369, 0.47929880412962794, 0.5495538713258409, 0.6885698187250322, 0.5127943624655351]
+
+
+Starting epoch 46 / 50
+Learning Rate for this epoch: 1e-05
+Epoch [46/50], Iter [50/209], Loss: total=1.533, reg=0.750, containing_obj=0.337, no_obj=0.300, cls=0.146
+Epoch [46/50], Iter [100/209], Loss: total=1.544, reg=0.750, containing_obj=0.340, no_obj=0.301, cls=0.153
+Epoch [46/50], Iter [150/209], Loss: total=1.575, reg=0.768, containing_obj=0.349, no_obj=0.301, cls=0.157
+Epoch [46/50], Iter [200/209], Loss: total=1.590, reg=0.780, containing_obj=0.352, no_obj=0.301, cls=0.157
+
+
+Starting epoch 47 / 50
+Learning Rate for this epoch: 1e-05
+Epoch [47/50], Iter [50/209], Loss: total=1.522, reg=0.748, containing_obj=0.333, no_obj=0.304, cls=0.137
+Epoch [47/50], Iter [100/209], Loss: total=1.552, reg=0.759, containing_obj=0.343, no_obj=0.305, cls=0.145
+Epoch [47/50], Iter [150/209], Loss: total=1.570, reg=0.775, containing_obj=0.346, no_obj=0.303, cls=0.146
+Epoch [47/50], Iter [200/209], Loss: total=1.567, reg=0.769, containing_obj=0.347, no_obj=0.305, cls=0.147
+Updating best test loss: 2.91316
+
+
+Starting epoch 48 / 50
+Learning Rate for this epoch: 1e-05
+Epoch [48/50], Iter [50/209], Loss: total=1.550, reg=0.773, containing_obj=0.322, no_obj=0.301, cls=0.154
+Epoch [48/50], Iter [100/209], Loss: total=1.580, reg=0.780, containing_obj=0.347, no_obj=0.304, cls=0.150
+Epoch [48/50], Iter [150/209], Loss: total=1.580, reg=0.780, containing_obj=0.342, no_obj=0.302, cls=0.156
+Epoch [48/50], Iter [200/209], Loss: total=1.572, reg=0.770, containing_obj=0.341, no_obj=0.303, cls=0.158
+
+
+Starting epoch 49 / 50
+Learning Rate for this epoch: 1e-05
+Epoch [49/50], Iter [50/209], Loss: total=1.540, reg=0.768, containing_obj=0.331, no_obj=0.300, cls=0.140
+Epoch [49/50], Iter [100/209], Loss: total=1.539, reg=0.764, containing_obj=0.331, no_obj=0.301, cls=0.143
+Epoch [49/50], Iter [150/209], Loss: total=1.562, reg=0.772, containing_obj=0.341, no_obj=0.300, cls=0.149
+Epoch [49/50], Iter [200/209], Loss: total=1.563, reg=0.774, containing_obj=0.340, no_obj=0.301, cls=0.148
+
+
+Starting epoch 50 / 50
+Learning Rate for this epoch: 1e-05
+Epoch [50/50], Iter [50/209], Loss: total=1.600, reg=0.802, containing_obj=0.346, no_obj=0.298, cls=0.154
+Epoch [50/50], Iter [100/209], Loss: total=1.579, reg=0.777, containing_obj=0.352, no_obj=0.299, cls=0.151
+Epoch [50/50], Iter [150/209], Loss: total=1.564, reg=0.770, containing_obj=0.344, no_obj=0.301, cls=0.149
+Epoch [50/50], Iter [200/209], Loss: total=1.548, reg=0.759, containing_obj=0.341, no_obj=0.300, cls=0.148
+---Evaluate model on test samples---
+---class aeroplane ap 0.4254476820183016---
+---class bicycle ap 0.6236412669627176---
+---class bird ap 0.49575084340146724---
+---class boat ap 0.2731991097696145---
+---class bottle ap 0.20851705555761715---
+---class bus ap 0.622428347315654---
+---class car ap 0.6177006700294806---
+---class cat ap 0.767450626141454---
+---class chair ap 0.3564052590765526---
+---class cow ap 0.5490190787340063---
+---class diningtable ap 0.4603638019507865---
+---class dog ap 0.7311439169778913---
+---class horse ap 0.6905522914462832---
+---class motorbike ap 0.571883446098743---
+---class person ap 0.47876499729392386---
+---class pottedplant ap 0.21320825826825207---
+---class sheep ap 0.4135824810374237---
+---class sofa ap 0.5511421990438747---
+---class train ap 0.6815199870661574---
+---class tvmonitor ap 0.5143337447514057---
+---map 0.5123027531470803---
+49 [0.4254476820183016, 0.6236412669627176, 0.49575084340146724, 0.2731991097696145, 0.20851705555761715, 0.622428347315654, 0.6177006700294806, 0.767450626141454, 0.3564052590765526, 0.5490190787340063, 0.4603638019507865, 0.7311439169778913, 0.6905522914462832, 0.571883446098743, 0.47876499729392386, 0.21320825826825207, 0.4135824810374237, 0.5511421990438747, 0.6815199870661574, 0.5143337447514057]
