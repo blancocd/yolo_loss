@@ -107,7 +107,7 @@ def nms(bboxes, scores, threshold=0.5):
     return torch.LongTensor(keep)
 
 
-def predict_image(model, image_name, root_img_directory=""):
+def predict_image(model, image_name, device, root_img_directory=""):
     """
     Predict output for a single image
 
@@ -138,7 +138,9 @@ def predict_image(model, image_name, root_img_directory=""):
     img = transform(img)
     with torch.no_grad():
         img = Variable(img[None, :, :, :])
-        img = img.cuda()
+        
+        if (device != torch.device(type='cpu')):
+            img = img.cuda()
 
         pred = model(img)  # 1xSxSx(B*5+C)
         pred = pred.cpu()
